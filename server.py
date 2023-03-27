@@ -25,5 +25,5 @@ def hello_world():
 def get_users():
     return jsonify(users)
 
-
-app.run()
+def create_app():
+    return app
