@@ -24,3 +24,6 @@ def hello_world():
 @app.get('/users')
 def get_users():
     return jsonify(users)
+
+
+app.run()
